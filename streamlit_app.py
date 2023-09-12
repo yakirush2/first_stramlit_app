@@ -10,6 +10,9 @@ menu = {
     "Fruit Salad": "A medley of seasonal fruits for a refreshing dessert.",
     "Green Smoothie": "A healthy blend of spinach, banana, and almond milk.",
 }
-streamlit.print(menu)
 
+# Display the menu using a loop
+for item, description in menu.items():
+    st.subheader(item)
+    st.write(description)
 
