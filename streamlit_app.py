@@ -10,6 +10,6 @@ menu = {
     "Fruit Salad": "A medley of seasonal fruits for a refreshing dessert.",
     "Green Smoothie": "A healthy blend of spinach, banana, and almond milk.",
 }
-print(menu)
+streamlit.print(menu)
 
 
